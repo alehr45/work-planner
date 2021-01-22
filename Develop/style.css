@@ -1,6 +1,7 @@
 
 
 body {
+  background-color:  rgb(218, 190, 33);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -17,26 +18,13 @@ textarea{
 }
 
 .jumbotron {
+
+  text-shadow: -1px 0 rgb(87, 87, 87);
   text-align: center;
-  background-color: #32c3da;
-  color: black;
+  background-color:  rgb(50, 138, 189);
+  color: rgb(218, 190, 33);
   border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  border-bottom: 10px solid rgb(97, 97, 97);
 }
 
 .hour {
@@ -60,21 +48,14 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
 #time{
   background-color: red;
   float: left;
-
 }
 
-
 .input-group-text{
-  background-color: #32c3da;
-  color: white;
+  background-color: rgb(50, 138, 189);
+  color: rgb(218, 190, 33);
   padding: 20px;
   font-size: 15px;
   
@@ -83,7 +64,7 @@ textarea{
 .form-control{
   padding: 31.5px;
   margin-bottom: 2px;
-  color: blue;
+  color: rgb(0, 0, 0);
   
 }
 
@@ -93,10 +74,13 @@ textarea{
   align-items: center;
  flex-direction: column;
   padding: 0px;
-
-  
 }
 
 .button {
   font-size: 140px;
+}
+
+.fas-fa-save-save {
+color:rgb(255, 0, 0);
+
 }
