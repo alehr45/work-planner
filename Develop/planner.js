@@ -16,4 +16,3 @@ today.innerHTML = "Today is " + (momentElement);
 
 
 
-
