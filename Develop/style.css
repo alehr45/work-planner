@@ -1,4 +1,5 @@
 
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -75,6 +76,7 @@ textarea{
   background-color: #32c3da;
   color: white;
   padding: 20px;
+  font-size: 15px;
   
 }
 
@@ -85,7 +87,16 @@ textarea{
   
 }
 
-.input-group-prepend {
-font-size: 8px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-direction: column;
+  padding: 0px;
 
+  
+}
+
+.button {
+  font-size: 140px;
 }
