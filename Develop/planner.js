@@ -10,6 +10,7 @@ var fourPmElement = document.querySelector("#user-input4");
 var fivePmElement = document.querySelector("#user-input5");
 var today = document.querySelector("#currentDay");
 var momentElement = moment().format('LLLL');
+var saveBtn = document.querySelector("#save");
 
 //Shows current date and time live on the page
 today.innerHTML = "Today is " + (momentElement);
