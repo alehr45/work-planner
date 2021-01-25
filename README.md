@@ -3,7 +3,7 @@
 
 Simple and easy to use weekday planner.
 
-Add and save duties to your work schedule for each our of the work day.
+Add and save duties to your work schedule for each hour of the work day.
 
 Red inputs are in the past, yellow inputs are in the present, and green inputs are in the future.
 
